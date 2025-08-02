@@ -1,0 +1,98 @@
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #1a202c;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.navbar-links  {
+  display: none;
+  user-select: none;
+  font-weight: 500;
+  
+}
+.navbar-links a{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+.mobile-menu a{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+
+  
+}
+
+.navbar-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.marquee-wrapper {
+  
+  border-top: 1px solid #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #d30d17;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.marquee-wrapper marquee {
+  white-space: nowrap;
+  font-size: 10px;
+}
+.search-input {
+  padding: 5px 10px;
+  width: 15rem;
+  margin-left: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+
+
+@media (min-width: 768px) {
+  .navbar-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}

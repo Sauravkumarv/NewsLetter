@@ -1,0 +1,40 @@
+<svg width="300" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="80" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Main logo container -->
+  <g transform="translate(10, 10)">
+    
+    <!-- Red accent bar -->
+    <rect x="0" y="0" width="280" height="4" fill="#dc2626"/>
+    
+    <!-- HINDUSTAN text -->
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a1a1a">
+      HINDUSTAN
+    </text>
+    
+    <!-- TIMES text -->
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#dc2626">
+      TIMES
+    </text>
+    
+    <!-- Decorative elements -->
+    <circle cx="200" cy="30" r="2" fill="#dc2626"/>
+    <circle cx="210" cy="30" r="2" fill="#dc2626"/>
+    <circle cx="220" cy="30" r="2" fill="#dc2626"/>
+    
+    <!-- Tagline -->
+    <text x="140" y="45" font-family="Arial, sans-serif" font-size="8" fill="#666666">
+      INDIA'S LARGEST ENGLISH DAILY
+    </text>
+    
+    <!-- Bottom accent line -->
+    <rect x="0" y="56" width="280" height="2" fill="#dc2626"/>
+    
+    <!-- Date placeholder -->
+    <text x="200" y="67" font-family="Arial, sans-serif" font-size="10" fill="#888888">
+      EST. 1924
+    </text>
+    
+  </g>
+</svg>
