@@ -21,7 +21,6 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  text-decoration: none;
 }
 
 .navbar-links  {
@@ -72,32 +71,26 @@
   white-space: nowrap;
   font-size: 10px;
 }
-.serch{
+.search-input {
   padding: 5px 10px;
-  height: 0.3rem;
   width: 15rem;
   margin-left: 20px;
   border-radius: 8px;
   border: 1px solid #ccc;
 }
- 
 
-.profile{
-  font-size: 1.4rem;
-  cursor: pointer;
-}
+
 
 @media (min-width: 768px) {
   .navbar-links {
     display: flex;
     gap: 2rem;
   }
+  
 
   .navbar-toggle {
     display: none;
   }
-
-  
 
   .mobile-menu {
     display: none;

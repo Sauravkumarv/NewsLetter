@@ -21,11 +21,11 @@ export default function Home({ searchTerm }) {
       ) : (
         filteredArticles.map((article, index) => (
           <div className="article-card" key={index}>
-            <img className="article-image" src={article.image} alt={article.title} loading="lazy"/>
+            <img className="article-image" src={article.image} alt={article.title} />
             <div className="article-content">
               <h2 className="article-title">{article.title}</h2>
               <div className="article-meta">
-                <img src={article.author_avatar} alt={article.author} className="author-avatar" loading="lazy" />
+                <img src={article.author_avatar} alt={article.author} className="author-avatar" />
                 <span className="author-name">{article.author}</span>
                 <span className="article-date">{new Date(article.date).toLocaleDateString()}</span>
               </div>
